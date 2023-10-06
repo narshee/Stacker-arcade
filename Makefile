@@ -3,4 +3,4 @@ CFLAGS ?= -Os
 CPPFLAGS ?= -Wall -Wextra
 
 all: stacker.c
-        $(CC) $(CFLAGS) $(CPPFLAGS) $< -o stacker
+	$(CC) $(CFLAGS) $(CPPFLAGS) $< -o stacker
